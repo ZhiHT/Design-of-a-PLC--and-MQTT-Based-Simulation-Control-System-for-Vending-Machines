@@ -1,2 +1,8 @@
-# -PLC-MQTT-Design-of-a-PLC--and-MQTT-Based-Simulation-Control-System-for-Vending-Machines-
-针对传统自动贩卖机控制系统开发周期长、依赖实体设备、交互方式单一的问题，提出一种基于PLC、组态王与MQTT的全仿真控制方案。以西门子S7-1500 PLC为核心控制器，在博图V16中完成售货逻辑、虚拟轴定位及语音播报功能。（To address the long development cycles, heavy dependence on physical equipment, and single interaction mode in traditional vending machine control systems, a fully simulated control scheme based on PLC, KingView, and MQTT is proposed.）
+本设计为仿真设计，需要用到博图v16、PLCSIM Advanced、组态王、Android Studio以及搭建自己的MQTT平台。
+组态王需要配置PLC1500驱动以及MQTT驱动。
+本人使用的是EMQX的MQTT平台，如需使用同款，可下载emqx-5.3.2-windows-amd64。
+其他驱动的操作方式可以在组态王的官方网站查到。
+This is a simulation design that requires TIA Portal V16, PLCSIM Advanced, KingView, Android Studio, and a self-hosted MQTT broker.
+For KingView, you'll need to configure both the S7-1500 PLC driver and the MQTT driver.
+I'm using EMQX as my MQTT broker. If you'd like to use the same version, you can download emqx-5.3.2-windows-amd64.
+For instructions on configuring other drivers, please refer to the official KingView website.
