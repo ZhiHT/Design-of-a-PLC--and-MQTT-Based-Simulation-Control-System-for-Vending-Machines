@@ -1,0 +1,2 @@
+# -PLC-MQTT-Design-of-a-PLC--and-MQTT-Based-Simulation-Control-System-for-Vending-Machines-
+针对传统自动贩卖机控制系统开发周期长、依赖实体设备、交互方式单一的问题，提出一种基于PLC、组态王与MQTT的全仿真控制方案。以西门子S7-1500 PLC为核心控制器，在博图V16中完成售货逻辑、虚拟轴定位及语音播报功能。（To address the long development cycles, heavy dependence on physical equipment, and single interaction mode in traditional vending machine control systems, a fully simulated control scheme based on PLC, KingView, and MQTT is proposed.）
